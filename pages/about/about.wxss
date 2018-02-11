@@ -1,0 +1,43 @@
+.container {
+  background-image: url('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1516827978&di=f47535dc7b8bec73326172d6cf3d27a8&imgtype=jpg&er=1&src=http%3A%2F%2Fimg3.duitang.com%2Fuploads%2Fitem%2F201309%2F21%2F20130921124936_uXrZi.jpeg'); 
+  background-repeat: round;
+  opacity: 0;
+}
+
+.animation{
+  opacity: 0;
+}
+
+.text-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.QR{
+  width: 350rpx;
+  height: 350rpx;
+}
+
+.text-title{
+  color: white;
+  font-size: 35px;
+}
+
+.text-content{
+  color: white;
+  padding-top:3px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.big-space{
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+.line{
+  width:100%;
+  height:2rpx;
+  background:#aaa;
+}

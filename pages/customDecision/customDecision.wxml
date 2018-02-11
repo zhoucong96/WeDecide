@@ -1,0 +1,76 @@
+<view class="container">
+
+  <view class="question">
+    <text>{{question}}</text>
+    <view class="input-section">
+      <input class="input" bindinput="bindQuestionInput" />
+      <text>?</text>
+    </view>
+    <view class="line"></view>
+  </view>
+
+  <view class="noise-switch">
+    <switch class="info-icon" bindchange="onNoiseRandSwitched"/>
+    <text class="noise-text">大气噪音随机</text>
+    <view class="weui-footer__links">
+      <navigator url="../aboutNoise/aboutNoise"><icon class="noise-icon" type="info_circle" size="22.5" /></navigator>
+    </view>
+    
+  </view>
+
+  <view class="first-option">
+    <text>{{optionMessage}}</text>
+    <view class="number-option">
+      <text style="color: black">1. </text>
+      <input value="{{value0}}" class="input" bindinput="bindOption0Input" />
+    </view>
+    <view class="line"></view>
+  </view>
+
+  <view class="second-option">
+    <view class="number-option">
+      <text>2. </text>
+      <input value="{{value1}}" class="input" bindinput="bindOption1Input" />
+    </view>
+    <view class="line"></view>
+  </view>
+
+  <view wx:if="{{optionCount >= 3}}" class="other-options" animation="{{animationData}}">
+    <view class="number-option">
+      <text>3. </text>
+      <input class="input" bindinput="bindOption2Input" />
+    </view>
+    <view class="line"></view>
+  </view>
+
+  <view wx:if="{{optionCount >= 4}}" class="other-options" animation="{{animationData}}">
+    <view class="number-option">
+      <text>4. </text>
+      <input class="input" bindinput="bindOption3Input" />
+    </view>
+    <view class="line"></view>
+  </view>
+
+  <view wx:if="{{optionCount >= 5}}" class="other-options" animation="{{animationData}}">
+    <view class="number-option">
+      <text>5. </text>
+      <input class="input" bindinput="bindOption4Input" />
+    </view>
+    <view class="line"></view>
+  </view>
+
+  <view class="plus-minus-button">
+    <button disabled="{{!addEnabled}}" type="primary" plain="true" bindtap="onAddTap"> 增加选项 </button>
+    <view class="space"></view>
+      <button disabled="{{!deleteEnabled}}" type="warn" plain="true" bindtap="onDeleteTap"> 减少选项 </button>
+  </view>
+
+  <view class="start-decision">
+    <button disabled="{{isOptionEmpty || isQuestionEmpty}}" type="primary" bindtap="onDecideTap"> 就决定是你了 </button>
+  </view>
+
+  <view class="start-decision">
+    <button type="warn" bindtap="onClearTap"> 重置选项 </button>
+  </view>
+
+</view>

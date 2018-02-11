@@ -1,0 +1,47 @@
+.container{
+  opacity: 0;
+}
+
+.text-section{
+  padding-top: 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.remind-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5px;
+  opacity: 0;
+}
+
+.big-space{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.small-space{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.really-small-space{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.text-title{
+  font-size: 35px;
+}
+
+.text-result{
+  font-size: 20px;
+}
+
+.button-section{
+  display: flex;
+  flex-direction: column;
+  padding-top: 80px;
+}

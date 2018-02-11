@@ -1,0 +1,38 @@
+<view class="container" animation="{{animation}}">
+
+  <view class="text-section">
+    <view class="text-section">
+      <text class="text-title">解决的问题是</text>
+      <text class="text-result">{{question}}?</text>
+    </view>
+
+    <view class="big-space"></view>
+
+    <view class="text-section">
+      <text class="text-title">最终的决定是</text>
+      <view animation="{{animationData}}">
+        <text class="text-result">{{result}}</text>
+      </view>
+    </view>
+
+    <view class="small-space"></view>
+
+    <view class="remind-section" animation="{{animationRemind}}">
+      <text>你已经重复了{{againCount}}次了</text>
+      <text>如果有偏爱的选项何不直接选择它呢？</text>
+    </view>
+
+  </view>
+
+   <view class="button-section">
+    <button type="primary" open-type="share" plain="true"> 分享结果 </button>
+    <view class="really-small-space"></view>
+
+    <button type="primary" bindtap="onAgainTap"> 再选一次 </button>
+    <view class="small-space"></view>
+    
+    <button wx:if="{{inTest}}" type="primary" bindtap="onTestTap"> 转发测试 </button>
+
+  </view>
+
+</view>

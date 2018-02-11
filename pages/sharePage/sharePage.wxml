@@ -1,0 +1,30 @@
+<view class="container" animation="{{animationData}}">
+
+  <view class="text-section">
+    <view class="text-section">
+      <text class="text-title">Ta解决的问题是</text>
+      <text class="text-result">{{question}}?</text>
+    </view>
+
+    <view class="big-space"></view>
+
+    <view class="text-section">
+      <text class="text-title">Ta最终的决定是</text>
+      <text class="text-result">{{result}}</text>
+    </view>
+  </view>
+
+   <view class="button-section">
+    <button class="decision-button" type="primary" bindtap="onDecideButtonTap"> 我也要做决定 </button>
+    <view class="small-space"></view>
+    <button wx:if="{{about}}" plain="true" bindtap="onAboutTap"> A Little About Me </button>
+  </view>
+
+  <view class="weui-footer">
+    <view class="weui-footer__links">
+      <navigator url="../about/about" class="weui-footer__link">About Me</navigator>
+    </view>
+    <view class="weui-footer__text">Copyright © WeDecide</view>
+  </view>
+
+</view>

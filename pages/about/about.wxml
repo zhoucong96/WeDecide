@@ -1,0 +1,45 @@
+<view class="container" animation="{{animationBackground}}">
+  <view class="animation" animation="{{animationData}}">
+    <view class="text-section">
+      <view>
+        <text class="text-title">关于程序</text>
+        <view class="line"></view>
+      </view>
+      <text class="text-content">
+      选择恐惧症是一个极其普遍也极其令人痛苦的症状。作为一名标准的天秤座，我为此饱受煎熬。为了解决这个问题，此程序将随机选出一个选项来帮助用户做出绝（bing）对（bu）心仪的选择。
+      为了锻炼写程序的能力，脑袋一热就开始写了，而且由于利用课余时间编写，程序质量比较粗糙...如果遇到了bug也请欢迎联系我， 我有时间就尽量去改...
+
+      PS. 那张刘昊然的照片是女友让我放的，我心里当初是拒绝的，但是看到刘昊然那么帅，就放弃挣扎了...
+      </text>
+    </view>
+
+    <view class="big-space"></view>
+
+    <view class="text-section">
+      <view>
+        <text class="text-title">关于我</text>
+        <view class="line"></view>
+      </view>
+      <text class="text-content">
+      熟悉我的人也都知道我是怎么样的人啦。
+      现就读于加拿大滑铁卢大学计算机工程系，学渣一枚，不敢造次...
+      目前做过5次实习，却还是一个毫无技术的程序猿...
+      矫情、幼稚、情绪化却也积极。毕竟，人还是要快乐点好🙂←看这真心的笑
+      </text>
+    </view>
+
+    <view class="big-space"></view>
+
+    <view class="text-section">
+      <view>
+        <text class="text-title">联系我</text>
+        <view class="line"></view>
+      </view>
+      <text class="text-content">
+      邮箱：zhoucong961017@gmail.com
+      微信：zc527150785
+      </text>
+      <image class="QR" src="{{QRsrc}}"></image>
+    </view>
+  </view>
+</view>

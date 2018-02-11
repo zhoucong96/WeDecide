@@ -1,0 +1,84 @@
+.question{
+  color: #aaa;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding-bottom: 10px;
+}
+
+.input-section{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.line{
+  width:100%;
+  height:2rpx;
+  background:#aaa;
+}
+
+.space{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.input{
+  padding-bottom: 5px;
+  color: black;
+}
+
+.first-option{
+  color: #aaa;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding-top: 30px;
+  padding-bottom: 5px;
+}
+
+.other-options{
+  padding-bottom: 5px;
+  opacity: 0;
+}
+
+.second-option{
+  padding-bottom: 5px;
+  opacity: 1;
+}
+
+.plus-minus-button{
+  display: flex;
+  flex-direction: row;
+  padding-top: 10px;
+}
+
+.noise-switch{
+  display: flex;
+  flex-direction: row;
+  padding-top: 30px;
+}
+
+.start-decision{
+  padding-top: 10px;
+  width:60%;
+}
+
+.info-icon{
+  padding-right: 5px;
+}
+
+.noise-text{
+  padding-top: 5px;
+}
+
+.noise-icon{
+  padding-bottom: 3px;
+  padding-top: 5px;
+}
+
+.number-option{
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+}

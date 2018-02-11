@@ -1,0 +1,39 @@
+<view class="container" animation="{{animationBackground}}">
+  <view class="animation" animation="{{animationData}}">
+
+    <view class="text-section">
+      <view>
+        <text class="text-title">关于大气噪音</text>
+        <view class="line"></view>
+      </view>
+      <text class="text-content">
+      随机数的获取依赖于随机变量。在编程语言的库里的随机数方法是基于一定算法的,这种通过算法来得出的随机数被称为伪随机数。
+      
+      为了得出真正的随机数，第三方组织Random Org利用了大气中的噪音作为随机变量来得出一个真正的随机数。打开了大气噪音随机开关后，本程序将利用Random Org的API来获取真正的随机数以确保一个真正的随机机制。
+
+      做随机决定，我是认真的。
+      </text>
+    </view>
+
+    <view class="big-space"></view>
+
+    <view class="text-section">
+      <view>
+        <text class="text-title">信息来源</text>
+        <view class="line"></view>
+      </view>
+      <text class="text-content">
+      random.org
+
+
+
+
+
+
+
+      
+      </text>
+    </view>
+
+  </view>
+</view>

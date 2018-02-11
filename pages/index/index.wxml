@@ -1,0 +1,17 @@
+<!--index.wxml-->
+<view class="container" animation="{{animationBackground}}">
+  <view class="animation" animation="{{animationData}}">
+    <view class="userinfo" animation="{{animationData1}}">
+      <view>
+        <text class="title">Let's</text>
+        <text class="title">Decide!</text>
+        <view class="line"></view>
+      </view>
+      <text class="greet">{{greeting1}}</text>
+      <text class="greet">{{greeting2}}</text>
+    </view>
+    <view class="usermotto" animation="{{animationData2}}">
+      <button type="primary" plain="true" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> {{confirm}} </button>
+    </view>
+  </view>
+</view>

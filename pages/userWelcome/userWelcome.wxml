@@ -1,0 +1,23 @@
+<view class="container">
+  <view class="userinfo">
+    <block wx:if="{{hasUserInfo}}">
+      <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+      <text class="userinfo-nickname">还记得被选择恐惧症支配的恐惧吗？</text>
+      <view class="space"></view>
+    </block>
+  </view>
+
+  <view class="usermotto">
+    <button type="primary" plain="true" bindtap="onDecisionButtonTap">{{motto}}</button>
+    <view class="space"></view>
+  
+    <view class="weui-footer">
+      <view class="weui-footer__links">
+        <navigator url="../about/about" class="weui-footer__link">About Me</navigator>
+      </view>
+      <view class="weui-footer__text">Copyright © WeDecide</view>
+    </view>
+  </view>
+
+</view>

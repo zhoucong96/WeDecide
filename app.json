@@ -1,0 +1,18 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/userWelcome/userWelcome",
+    "pages/customDecision/customDecision",
+    "pages/decisionResult/decisionResult",
+    "pages/sharePage/sharePage",
+    "pages/about/about",
+    "pages/aboutNoise/aboutNoise"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#333333",
+    "navigationBarTitleText": "WeDecide",
+    "navigationBarTextStyle":"white"
+  }
+}
